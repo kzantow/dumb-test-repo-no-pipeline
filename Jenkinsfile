@@ -28,4 +28,7 @@ pipeline {
       }
     }
   }
+  environment {
+    asdf = '\'asdf \'sadf " FADS"F'
+  }
 }
