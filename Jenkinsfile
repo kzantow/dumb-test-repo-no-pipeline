@@ -1,11 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      args '"ASDF \'\'ewf \'ewf "efw \'fa '
-      image 'asdf\' " '
-    }
-    
-  }
+  agent any
   stages {
     stage('Build') {
       steps {
@@ -35,6 +29,6 @@ pipeline {
     }
   }
   environment {
-    asdf = '\'asdf \'sadf " FADS"F'
+    asdf = '\''
   }
 }
