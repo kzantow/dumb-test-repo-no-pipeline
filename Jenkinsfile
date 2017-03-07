@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'hello'
         sh 'echo \'hello\'\'! #$%#$%  " @#$@3'
+        echo 'yikes\' \'dasf "EW #$%#@$% ""'
       }
     }
     stage('Test') {
