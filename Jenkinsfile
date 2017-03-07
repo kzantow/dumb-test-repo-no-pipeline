@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo 'hello'
-        sh 'echo \'hello\''
+        sh 'echo \'hello\'\'! #$%#$%  " @#$@3'
       }
     }
     stage('Test') {
