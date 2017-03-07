@@ -1,5 +1,11 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      args '"ASDF \'\'ewf \'ewf "efw \'fa '
+      image 'asdf\' " '
+    }
+    
+  }
   stages {
     stage('Build') {
       steps {
