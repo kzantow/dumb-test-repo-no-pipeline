@@ -4,10 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         echo 'hello'
-        script {
-          asdf
-        }
-        
       }
     }
     stage('Test') {
