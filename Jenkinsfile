@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('asdf') {
       steps {
-        sh 'echo "go go go"'
+        sh 'echo "stop stop stop"'
       }
     }
   }
